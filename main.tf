@@ -48,7 +48,7 @@ resource "aws_instance" "example" {
               systemctl restart apache2
               EOF
   tags = {
-    Name          = "terraform-learn-state-ec2"
+    Name          = "terraform-drift-state-ec2"
     drift_example = "v1"
   }
 }
